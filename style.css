@@ -1,0 +1,133 @@
+.menu {
+    background-color: #45015d;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 15px;
+    width: 250px;
+    height: 65%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+}
+.menu a {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+}
+.content {
+    margin: 80px 40px 0 400px;
+}
+.menu a:hover {
+    color: #000;
+    background-color: white;
+}
+h1 {
+    font-weight: bold;
+    font-size: 64px;
+}
+body {
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.5;
+}
+.showcase img {
+    width: 45%;
+    margin: 5px;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+.showcase img:hover {
+    opacity: 1;
+}
+h2 {
+    color:purple;
+    font-weight: 800;
+    font-size: 48px;
+}
+hr {
+    border: 5px solid purple;
+    width: 100%;
+    border-radius: 4px;
+    margin: 20px 0;
+    background-color: purple;
+}
+.rabota {
+    color: rgb(97, 86, 86);
+}
+.desk {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 2px 16px 5px;
+}
+.member {
+    display: inline-block;
+    width: 30%;
+    padding: 8px;
+}
+.member img {
+    width: 100%;
+    border-radius: 10px;
+    filter: grayscale(30%);
+}
+.tariff {
+    display: inline-block;
+    width: 48%;
+    padding: 0 8px;
+}
+ul {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+li {
+    list-style-type: none;
+    padding: 16px 0;
+    border-bottom: 1px solid #dddddd;
+}
+.tariff-name {
+    color: rgb(255, 255, 255);
+    background-color:purple;
+    font-size: 25px;
+    border-radius: 10px;
+}
+ .pro .tariff-name{
+    background-color: coral;
+}
+button {
+    color: purple;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+}
+ .pro button {
+    background-color:coral;
+    border-radius: 10px;
+     color: rgb(255, 255, 255);
+}
+.tariff p {
+    font-weight: bold;
+    font-size: 25px;
+}
+input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: #ccc 1px solid;
+}
+form button {
+    background-color: purple;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border: none;
+    margin: 10px;
+}
+.nt {
+    text-align: right;
+}
